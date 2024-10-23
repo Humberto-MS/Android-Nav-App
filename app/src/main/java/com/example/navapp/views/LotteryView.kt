@@ -14,7 +14,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
@@ -31,10 +30,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.navegacion.components.MainButton
-import com.example.navegacion.components.MainIconButton
-import com.example.navegacion.components.Space
-import com.example.navegacion.components.TitleBar
+import com.example.navapp.components.MainButton
+import com.example.navapp.components.MainIconButton
+import com.example.navapp.components.Space
+import com.example.navapp.components.TitleBar
 
 private val _lotoNumbers = mutableStateOf ( emptyList<Int>() )
 val lotoNumbers: State<List<Int>> = _lotoNumbers

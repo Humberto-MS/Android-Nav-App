@@ -1,4 +1,4 @@
-package com.example.navegacion.components
+package com.example.navapp.components
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add

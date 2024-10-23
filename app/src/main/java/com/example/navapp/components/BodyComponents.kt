@@ -1,4 +1,4 @@
-package com.example.navegacion.components
+package com.example.navapp.components
 
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
